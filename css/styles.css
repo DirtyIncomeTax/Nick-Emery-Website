@@ -1,0 +1,139 @@
+/* 
+Color Pallette 
+Rich Black: #080708
+Celtic Blue: #2B6ADE
+Rose Madder: #DF2935
+Sunglow: #FDCA40
+Platinum: #E6E8E6
+*/
+
+img{
+    width:300px;
+}
+
+*{
+    text-align: center;
+}
+
+a{
+    color: #FDCA40;
+}
+a:hover{
+    text-decoration: none;
+}
+
+html{
+    box-sizing:border-box;
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+p{
+    padding: 10px;
+}
+
+body{
+    color: #080708;
+    margin: 0;
+    padding: 0;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h1,h2{
+    font-family: 'Rock Salt', cursive;
+    font-weight: 400;
+    margin: 0
+}
+
+.content-wrap{
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+header{
+    background: #2B6ADE;
+    color: #E6E8E6;
+}
+
+.intro{
+    background:#FDCA40;
+}
+
+.portfolio{
+    background:#FDCA40 ;
+}
+
+.portfolio a{
+    color:#E6E8E6;
+    background: #2B6ADE;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.portfolio a:hover{
+    background: rgba(43, 106, 222, 80%);
+}
+
+.project-item{
+    overflow: hidden;
+    padding: 25px 0;
+}
+
+.project-item img{
+    float: left;
+    margin: 20px;
+}
+
+.project-item h3{
+    margin-top: 0;
+}
+
+.work{
+    background: #FDCA40;
+}
+
+/* .job-item{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    column-gap: 20px;
+}
+*/
+
+.education{
+    background: #FDCA40;
+}
+
+.contact{
+    background: #FDCA40;
+}
+
+footer{
+    background: #DF2935;
+    color: #E6E8E6;
+}
+
+.content-list{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.content-list a{
+    padding: 15px;
+    display: inline-block;
+}
