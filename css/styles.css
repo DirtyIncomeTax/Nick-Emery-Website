@@ -71,9 +71,10 @@ h3 ~ p{
 }
 
 .content-wrap{
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 10px 0;
+    width: 85%;
 }
 
 header{
@@ -106,11 +107,6 @@ header{
     padding: 25px 0;
 }
 
-.project-item img{
-    float: left;
-    margin: 20px;
-}
-
 .project-item h3{
     margin-top: 0;
 }
@@ -128,6 +124,10 @@ header{
 
 .education{
     background: #FDCA40;
+    /* background-image: url(../images/Education\ Picture.jpg);
+    background-size: cover;
+    background-position: bottom left;
+    padding-bottom: 100px; */
 }
 
 .contact{
@@ -149,4 +149,18 @@ footer{
 .content-list a{
     padding: 15px;
     display: inline-block;
+}
+
+@media screen and (min-width: 705px){
+    .project-item img{
+        float: left;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 749px){
+    h1{
+        font-size: 70px;
+        margin-bottom: 20px;
+    }
 }
